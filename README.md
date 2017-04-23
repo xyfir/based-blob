@@ -4,12 +4,12 @@ Convert blobs to and from base64 data url strings.
 
 ```js
 (async function() {
-  const blob64 = require('blob64');
+  const b = require('based-blob');
 
   const base64String = 'some base64 data...';
 
-  const blob = blob64.toBlob(base64String);
-  const b64s = await blob64.toBase64(blob);
+  const blob = b.toBlob(base64String);
+  const b64s = await b.toBase64(blob);
 
   console.log(b64s == base64String); // true
 })();
@@ -17,7 +17,7 @@ Convert blobs to and from base64 data url strings.
 
 # API
 
-## blob64.toBlob(base64[, contentType])
+## toBlob(base64[, contentType])
 
 Converts a base64 data url string to a blob.
 
@@ -30,7 +30,7 @@ Converts a base64 data url string to a blob.
 
 `Blob` - The blob built from the base64 string.
 
-## blob64.toBase64(blob)
+## toBase64(blob)
 
 Converts a blob to a base64 data url string.
 
