@@ -1,0 +1,26 @@
+{
+  "name": "blob64",
+  "version": "1.0.0",
+  "description": "Convert blobs from and to base64 data url strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xyfir/blob64.git"
+  },
+  "keywords": [
+    "blob",
+    "base64",
+    "string",
+    "convert",
+    "conversion"
+  ],
+  "author": "Xyfir, LLC <contact@xyfir.com> (https://xyfir.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xyfir/blob64/issues"
+  },
+  "homepage": "https://github.com/Xyfir/blob64#readme"
+}
