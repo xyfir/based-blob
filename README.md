@@ -1,5 +1,7 @@
 Convert blobs to and from base64 data url strings.
 
+Used by [Xyfir Books](https://books.xyfir.com/) and other projects in the [Xyfir Network](https://xyfir.com/).
+
 # Usage
 
 ```js
